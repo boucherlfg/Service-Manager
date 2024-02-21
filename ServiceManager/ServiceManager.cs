@@ -39,7 +39,7 @@ namespace ServiceManager
             throw new Exception($"No service of type {typeof(T).Name} was found");
         }
 
-        private T Add<T>(Func<T> builderOverride) where T : class
+        public T Add<T>(Func<T> builderOverride) where T : class
         {
             var srv = _services.Find(t => t is T);
             if (srv != null) return (T)srv;
