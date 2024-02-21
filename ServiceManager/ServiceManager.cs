@@ -39,6 +39,11 @@ namespace ServiceManager
             throw new Exception($"No service of type {typeof(T).Name} was found");
         }
 
+        public T Add<T>() where T : class
+        {
+            return Add<T>(GetDefaultConstructorObject<T>);
+        }
+
         public T Add<T>(Func<T> builderOverride) where T : class
         {
             var srv = _services.Find(t => t is T);
