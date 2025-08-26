@@ -7,6 +7,6 @@
     }
   ],
   "dependencies": {
-    "com.deraju.service-manager": "1.0.0"
+    "com.deraju.service-manager": "1.0.2"
   }
 }
