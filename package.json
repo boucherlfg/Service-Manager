@@ -1,0 +1,13 @@
+{
+	"name": "com.felix.service-manager",
+	"version": "1.0.0",
+	"displayName": "Service manager",
+	"description": "a centralized class to managed unique instances",
+	"unity": "6000.0.48",
+	"keywords" : [
+		"manager",
+		"injection",
+		"singleton",
+		"generic"
+	]
+}
