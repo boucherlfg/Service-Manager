@@ -3,7 +3,7 @@
 	"version": "1.0.0",
 	"displayName": "Service manager",
 	"description": "a centralized class to managed unique instances",
-	"unity": "6000.0.48",
+	"unity": "6000.0.48f1",
 	"keywords" : [
 		"manager",
 		"injection",
