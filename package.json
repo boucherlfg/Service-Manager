@@ -1,6 +1,6 @@
 {
 	"name": "@boucherlfg/com.deraju.service-manager",
-	"version": "1.0.1",
+	"version": "1.0.2",
 	"displayName": "Service manager",
 	"description": "a centralized class to managed unique instances",
 	"unity": "6000.0",
