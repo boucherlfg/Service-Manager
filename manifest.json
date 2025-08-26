@@ -1,0 +1,12 @@
+{
+  "scopedRegistries": [
+    {
+      "name": "GitHub",
+      "url": "https://npm.pkg.github.com",
+      "scopes": ["com.deraju"]
+    }
+  ],
+  "dependencies": {
+    "com.deraju.service-manager": "1.0.0"
+  }
+}
